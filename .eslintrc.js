@@ -23,5 +23,13 @@ module.exports = {
     'react/jsx-filename-extension': ['error', { extensions: ['.tsx'] }],
     '@typescript-eslint/no-var-requires': 'off'
   },
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [['src', './src']],
+        extensions: ['.ts', '.tsx']
+      }
+    }
+  },
   ignorePatterns: ['dist/']
 };

@@ -6,6 +6,9 @@ module.exports = {
   mode: 'development',
   entry: './index.tsx',
   resolve: {
+    alias: {
+      src: path.resolve(__dirname, 'src')
+    },
     extensions: ['.js', '.ts', '.tsx']
   },
   output: {
