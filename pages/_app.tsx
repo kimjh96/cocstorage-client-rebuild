@@ -1,9 +1,8 @@
 import React from 'react';
 import { AppProps } from 'next/app';
-
 import { ThemeProvider } from 'styled-components';
-import GlobalStyle from 'src/GlobalStyles';
 
+import GlobalStyle from 'src/GlobalStyles';
 import { LightTheme, DarkTheme } from 'src/theme';
 
 const themes = {
