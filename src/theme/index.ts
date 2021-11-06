@@ -1,6 +1,6 @@
 import baseStyled, { ThemedStyledInterface } from 'styled-components';
 
-// Theme
+// Themes
 import Light from 'src/theme/light';
 import Dark from 'src/theme/dark';
 
